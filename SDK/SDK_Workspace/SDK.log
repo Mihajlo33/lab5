@@ -137,3 +137,46 @@
 09:39:04.953 INFO  - Refreshed build settings on project hello_world 
 10:33:44.745 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
 10:36:10.473 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:01:11.914 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+11:01:11.964 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:19.439 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:19.450 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:19.484 WARN  - Unable to determine location of documentation for OS . 
+11:01:19.488 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:01:19.494 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:49.454 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:49.652 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:49.663 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:02:49.677 ERROR - Unable to read in MSS file D:\leo_i_ejpril\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+11:03:38.855 INFO  - Settings changed on project hello_world_bsp. Triggering a rebuild... 
+11:09:39.866 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+11:10:40.746 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Internal Error - Cable target accessed before open
+ 
+11:11:21.142 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+Failed to Scan JTAG Chain
+    Internal Error - Cable target accessed before open
+ 
+11:12:32.918 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+11:12:51.569 INFO  - FPGA configured successfully with bitstream "D:/leo_i_ejpril/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:44:09.691 INFO  - FPGA configured successfully with bitstream "D:/leo_i_ejpril/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:45:06.309 INFO  - FPGA configured successfully with bitstream "D:/leo_i_ejpril/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:45:46.440 INFO  - FPGA configured successfully with bitstream "D:/leo_i_ejpril/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:46:58.144 INFO  - FPGA configured successfully with bitstream "D:/leo_i_ejpril/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:47:23.890 INFO  - FPGA configured successfully with bitstream "D:/leo_i_ejpril/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+11:53:08.878 INFO  - FPGA configured successfully with bitstream "D:/leo_i_ejpril/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+12:20:09.560 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
