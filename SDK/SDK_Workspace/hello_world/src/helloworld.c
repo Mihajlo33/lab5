@@ -63,18 +63,63 @@ int main()
 
     clear_text_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
     clear_graphics_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
-    draw_square(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
-    set_cursor(1400);
-    print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, string_s, 6);
+    //draw_square(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
+    //set_cursor(1400);
+    //print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, string_s, 6);
 
-    set_cursor(1500);
+    /*set_cursor(1500);
     print_char(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, c);
     set_foreground_color(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, fore_value);
-    set_background_color(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, back_value);
+    set_background_color(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, back_value);*/
     //clear_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
 
 
-    draw_rectangle(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
+    while(1){
+    	int y = 100;
+    	int direction = 1,direction1 = 1;
+    	int i,k,m=1282;
+    	for(i=0; i<10000; i++){
+    		set_cursor(m);
+    		print_char(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, c);
+
+    		draw_square_at(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, y, 10);
+    		if (direction1 == 1){
+				if(m == 1438){
+					direction1 = 0;
+				}else{
+					m++;
+				}
+			}else{
+				if(m == 1280){
+					direction1 = 1;
+				}else{
+					m--;
+				}
+			}
+
+    		if (direction == 1){
+    			if(y == 440){
+    				direction = 0;
+    			}else{
+    				y++;
+    			}
+    		}else{
+    			if(y == 40){
+    				direction = 1;
+    			}else{
+    				y--;
+    			}
+    		}
+
+
+    		for(k=0; k<100000; k++);
+
+    		print_char(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, ' ');
+    	}
+    }
+    set_cursor(350);
+    print_char(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, 'Q');
+    //draw_rectangle(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
 
     return 0;
 }
